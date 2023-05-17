@@ -12,3 +12,5 @@ A face-to-face chatbot that speaks like George Moses Horton.
 - use aws polly to text-to-speech chatgpt's response, and generate an audio
 - give face image, audio/text response to d-id, which generates a speaking head video
 - play the video in gradio user interface
+# Acknowledgement
+Thanks to oller2.scott who answered my question on D-ID's forum.
