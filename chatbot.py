@@ -11,8 +11,8 @@ directory = ""
 
 # Credentials for D-ID, AWS, OpenAI, and Cloudinary; please fill in with your own credentials
 did_key = ""
-ACCESS_KEY = ""  # Access key for AWS (e.g., 'AKIARMTEUYUB6VL2XMXF')
-SECRET_KEY = ""  # Secret key for AWS (e.g., 'Y2j8/V3Mllj5SoQtp4zEA8FzXLgpUapcG09te3ai')
+ACCESS_KEY = ""  # Access key for AWS (e.g., '')
+SECRET_KEY = ""  # Secret key for AWS (e.g., '')
 
 # Initialize AWS Polly client with specified region and credentials
 polly = boto3.client('polly', region_name='us-east-1', aws_access_key_id=ACCESS_KEY, aws_secret_access_key=SECRET_KEY)
